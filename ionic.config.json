@@ -1,0 +1,7 @@
+{
+  "name": "BrasilTour",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
