@@ -1,0 +1,11 @@
+<ion-content>
+  <ion-card *ngFor="let item of items">
+    <img [src]="item.imagem" alt="{{ item.titulo }}" />
+    <ion-card-header>
+      <ion-card-title>{{ item.titulo }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      {{ item.descricao }}
+    </ion-card-content>
+  </ion-card>
+</ion-content>
