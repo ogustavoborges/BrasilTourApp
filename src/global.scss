@@ -88,6 +88,7 @@ ion-toolbar {
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
     font-size: 2rem;
+    font-weight: bold;
 }
 
 .main-paragrafo {
@@ -194,7 +195,7 @@ ion-list {
 .sobre, .destaques {
     margin: 0;
     text-align: center;
-    padding: 3rem 0;
+    padding-top: 3rem;
 }
 
 .sobre-quote {
@@ -263,12 +264,15 @@ ion-list {
 .passeios, .mvv{
     padding: 3rem 0;
 }
+
 .title-section {
     font-size: 1.5rem;
     color: green;
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
+    font-weight: bold;
 }
+
 .card-paragrafo{
     text-align: left;
 }
@@ -286,4 +290,11 @@ ion-list {
     margin-top: 1rem;
     color: green;
     transition: 0.1s ease-out;
+}
+
+.fundo{
+    margin: 0;
+    padding: 3rem 1rem;
+    border-radius: 0;
+    background-color: #fafbfc;
 }
