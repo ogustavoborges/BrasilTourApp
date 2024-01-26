@@ -45,6 +45,25 @@ ul{
     font-weight: bold;
 }
 
+.item{
+    border: none;
+}
+
+.item-native{
+    background-color: #db7515;
+}
+
+div{
+    background-color: #333c43;
+
+}
+
+ion-item{
+    --background-color: #333c43;
+}
+.lista-footer, ion-item{
+    background-color: #333c43;
+}
 
 .faixa-title{
     color: white;
@@ -81,3 +100,4 @@ ul{
     background-color: white;
     border: 1px solid #dcddde;
 }
+
