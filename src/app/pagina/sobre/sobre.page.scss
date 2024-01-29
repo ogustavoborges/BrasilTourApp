@@ -9,14 +9,7 @@
     url("../../../assets/bg-agendar.jpg") center center/cover no-repeat;
 }
 
-ul{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
+
 .mvv{
     background-color: #549e59;
 }
@@ -49,22 +42,6 @@ ul{
     border: none;
 }
 
-.item-native{
-    background-color: #db7515;
-}
-
-div{
-    background-color: #333c43;
-
-}
-
-ion-item{
-    --background-color: #333c43;
-}
-.lista-footer, ion-item{
-    background-color: #333c43;
-}
-
 .faixa-title{
     color: white;
     font-weight: 700;
@@ -73,31 +50,4 @@ ion-item{
     font-family: 'Poppins', sans-serif;
 }
 
-.feature-list {
-    list-style-type: none;
-}
-
-.feature-item {
-    margin-bottom: 20px;
-}
-
-.feature-title {
-    font-weight: bold;
-    font-size: 18px;
-    color: #db7515;
-    margin-bottom: 10px;
-}
-
-.feature-description {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #404a52;
-}
-
-.card-destaques{
-    text-align: left;
-    padding: 1rem;
-    background-color: white;
-    border: 1px solid #dcddde;
-}
 
